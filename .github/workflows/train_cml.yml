@@ -24,8 +24,8 @@ jobs:
 
       - name: Install dependencies
         run: |
-          python3 -m pip install --upgrade pip
           pip install pandas
+          pip install sklearn
           
       - name: Train model
         run: |
